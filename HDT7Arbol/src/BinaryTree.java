@@ -4,14 +4,23 @@ public class BinaryTree<E> {
         Node left;
         Node right;
 
-        public BinaryTree(){
 
-        }
         Node(Object n) {
             this.n = n;
             right = null;
             left = null;
         }
+
+    }
+    public void setNode(Object Node) {
+        this.n = Node;
+    }
+
+    public void insert(Object Node) {
+        if (this.n == null){
+            setNode(Node);
+        }
+
 
     }
 }
