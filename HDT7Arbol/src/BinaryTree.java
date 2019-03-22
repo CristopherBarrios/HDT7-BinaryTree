@@ -12,14 +12,13 @@ public class BinaryTree<E> {
 
     }
     public void setNode(Object Node) {
-        this.Node = Node;
     }
 
     public void insert(Object Node) {
-        if (this.Node == null){
+
             setNode(Node);
         }
 
 
     }
-}
+
