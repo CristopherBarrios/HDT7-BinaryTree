@@ -1,11 +1,10 @@
 public class BinaryTree<E> {
-    class Node {
+    public class Node{
         Object n = null;
         Node left;
         Node right;
 
-
-        Node(Object n) {
+        public Node(Object n) {
             this.n = n;
             right = null;
             left = null;
@@ -13,11 +12,11 @@ public class BinaryTree<E> {
 
     }
     public void setNode(Object Node) {
-        this.n = Node;
+        this.Node = Node;
     }
 
     public void insert(Object Node) {
-        if (this.n == null){
+        if (this.Node == null){
             setNode(Node);
         }
 
